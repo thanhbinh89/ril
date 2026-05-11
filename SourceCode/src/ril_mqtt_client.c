@@ -2,6 +2,7 @@
 #include "log.h"
 #include "ril.h"
 #include "ril_socket.h"
+#include <stdio.h>
 #include <string.h>
 
 // Generic AT response handler for QMTCFG commands

@@ -5,9 +5,11 @@
 #define RIL_TX_STREAM_SIZE 512
 
 #include "StreamBuffer.h"
+#include "UARTStream.h"
 #include "log.h"
 #include "ril_error.h"
 #include "ril_urc.h"
+#include "stm32g0xx_hal.h"
 #include <stdbool.h>
 
 #define RIL_USE_OS 0
